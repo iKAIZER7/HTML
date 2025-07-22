@@ -1,0 +1,141 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #b2d8d8 url("../images/pattern.png") repeat;
+  color: #333;
+}
+
+.container {
+  background-color: white;
+  border: 2px solid #4682b4;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding-bottom: 30px;
+}
+
+/* Logo + Title */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #b2d8d8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px #444;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #0c7b93;
+  border-top: 3px solid #ff6600;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-tabs li {
+  position: relative;
+  margin: 0 5px;
+  background-color: #ff6600;
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.nav-tabs a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: orange;
+  font-size: 14px;
+}
+
+.nav-tabs li:hover .arrow {
+  display: none;
+}
+
+.nav-tabs li:hover {
+  background-image: linear-gradient(to bottom, #ffa64d, #ff6600);
+  height: 50px;
+}
+
+/* Banner Image */
+.hero-img img {
+  width: 90%;
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #888;
+}
+
+/* Welcome Text */
+.welcome {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.welcome h2 {
+  color: #0077cc;
+}
+
+/* Two Columns */
+.resources {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px;
+}
+
+.resources h3 {
+  color: #0077cc;
+}
+
+.resources ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resources li {
+  margin: 8px 0;
+}
+
+.resources a {
+  text-decoration: none;
+  color: #ff7f50;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  color: #333;
+}
